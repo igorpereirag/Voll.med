@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import med.voll.api.dtos.medico.DadosAtualizacaoMedico;
 import med.voll.api.dtos.medico.DadosCadastroMedico;
-import med.voll.api.dtos.medico.Especialidade;
+import med.voll.api.enums.Especialidade;
 
 @Table(name = "medicos")
 @Entity(name = "Medico")
