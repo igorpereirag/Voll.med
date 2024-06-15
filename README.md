@@ -17,8 +17,8 @@ O layout da aplicação mobile está disponível neste link: <a href="https://ww
 
 - [x] CRUD de médicos;
 - [x] CRUD de pacientes;
-- [ ] Agendamento de consultas(em breve);
-- [ ] Cancelamento de consultas(em breve);
+- [x] Agendamento de consultas(em breve);
+- [x] Cancelamento de consultas(em breve);
 
 ---
 
@@ -33,6 +33,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 - **[Hibernate](https://hibernate.org)**
 - **[Flyway](https://flywaydb.org)**
 - **[Lombok](https://projectlombok.org)**
+- **[Springsecurity](https://springsecurity)**
 
 ---
 
