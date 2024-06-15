@@ -17,8 +17,8 @@ O layout da aplicação mobile está disponível neste link: <a href="https://ww
 
 - [x] CRUD de médicos;
 - [x] CRUD de pacientes;
-- [x] Agendamento de consultas(em breve);
-- [x] Cancelamento de consultas(em breve);
+- [x] Agendamento de consultas
+- [x] Cancelamento de consultas
 
 ---
 
