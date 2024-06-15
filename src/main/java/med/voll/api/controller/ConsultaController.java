@@ -18,6 +18,7 @@ public class ConsultaController {
     @Autowired
     private AgendaDeConsultas agenda;
 
+    @SuppressWarnings("rawtypes")
     @PostMapping
     @Transactional
     public ResponseEntity agendar(@RequestBody @Valid DadosAgendamentoConsulta dados) {
@@ -25,6 +26,7 @@ public class ConsultaController {
         return ResponseEntity.ok(dto);
     }
 
+    @SuppressWarnings("rawtypes")
     @DeleteMapping
     @Transactional
     public ResponseEntity cancelar(@RequestBody @Valid DadosCancelamentoConsulta dados) {

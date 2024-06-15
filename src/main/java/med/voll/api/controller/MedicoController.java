@@ -20,6 +20,7 @@ public class MedicoController {
     @Autowired
     private MedicoRepository repository;
 
+    @SuppressWarnings("rawtypes")
     @PostMapping
     @Transactional
     public ResponseEntity cadastrar(@RequestBody @Valid DadosCadastroMedico dados, UriComponentsBuilder uriBuilder) {
@@ -37,6 +38,7 @@ public class MedicoController {
         return ResponseEntity.ok(page);
     }
 
+    @SuppressWarnings("rawtypes")
     @PutMapping
     @Transactional
     public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizacaoMedico dados) {
@@ -46,6 +48,7 @@ public class MedicoController {
         return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
     }
 
+    @SuppressWarnings("rawtypes")
     @DeleteMapping("/{id}")
     @Transactional
     public ResponseEntity excluir(@PathVariable Long id) {
@@ -55,6 +58,7 @@ public class MedicoController {
         return ResponseEntity.noContent().build();
     }
 
+    @SuppressWarnings("rawtypes")
     @GetMapping("/{id}")
     public ResponseEntity detalhar(@PathVariable Long id) {
         var medico = repository.getReferenceById(id);
