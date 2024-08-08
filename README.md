@@ -5,7 +5,7 @@ Voll.med é uma clínica médica fictícia que precisa de um aplicativo para ges
 
 ![alt text](img/image.png)![alt text](img/image-1.png)!
 
-Enquanto um time de desenvolvimento será responsável pelo aplicativo mobile (front), este repositório será responsável pelo desenvolvimento da API Rest desse projeto.
+
 
 # 🎨 Layout
 
